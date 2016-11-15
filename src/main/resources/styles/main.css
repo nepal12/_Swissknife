@@ -1,0 +1,29 @@
+@font-face{
+    font-family : 'Ubuntu';
+    src : url('../fonts/Ubuntu-Regular.ttf');
+}
+
+@font-face{
+    font-family : 'OpenSans';
+    src : url('../fonts/OpenSans-Regular.ttf');
+}
+
+.root{
+   /* -fx-background-color: #242729;*/
+   -fx-border-color: transparent;
+
+}
+
+.menu-bar{
+    -fx-background-color: #3e3f42;
+    -fx-font-family : "Ubuntu";
+    -fx-font-size : 12.5 px;
+}
+
+.menu-bar .label{
+    -fx-text-fill: white;
+}
+
+.menu:hover{
+    -fx-background-color : #3a3a3a;
+}
